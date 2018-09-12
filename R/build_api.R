@@ -19,7 +19,6 @@ build_api <- function(addr, key, ctry) {
   
   # Escape addr to machine readable url
   addr <- curlEscape(addr)
-  addr <- paste0("&q=", addr)
   
   # Set basics of query
   root <- "https://open.mapquestapi.com/nominatim/v1/search.php?"
