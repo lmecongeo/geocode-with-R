@@ -1,3 +1,8 @@
+# Builds and returns the url that is required to send the query to the server.
+# addr should be a character vector containing the address that is to be geocoded.
+# key should be the mapquest api key that is necessary to send the request. 
+# ctry is optional and can entail a country specification in ISO 3166-1 (<https://en.wikipedia.org/wiki/ISO_3166-1>)
+
 build_api <- function(addr, key, ctry) {
   
   # Dependencies
