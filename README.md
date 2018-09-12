@@ -7,3 +7,5 @@ The gecoding involves three steps:
 1) Building the url to send the request to the API: build_api()
 2) Sending the request to the server and saving the response: geocode_nominatim()
 3) Parsing the response, i.e. geographic coordinates: get_latlon()
+
+API source: https://developer.mapquest.com/documentation/open/nominatim-search/search/
