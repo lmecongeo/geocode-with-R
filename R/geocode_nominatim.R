@@ -1,6 +1,6 @@
+# geocode_nominatim() needs a machine readable url to send the request to the mapquest server. That is, use build_api() to build such an url.
+
 geocode_nominatim <- function(q) {
-  
-  # q should entail the url that is requested
   
   # Load packages
   require(rjson)
